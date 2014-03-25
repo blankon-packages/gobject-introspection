@@ -39,7 +39,6 @@ Depends: ${shlibs:Depends},
 Provides: libgirepository1.0-1
 Conflicts: libgirepository1.0-1
 Replaces: libgirepository1.0-1
-Breaks: libgjs0c
 Description: Library for handling GObject introspection data (runtime library)
  GObject Introspection is a project for providing machine readable
  introspection data of the API of C libraries. This introspection
