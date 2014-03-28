@@ -1,14 +1,18 @@
-gobject-introspection (1.39.90-3blankon2) tambora; urgency=medium
-
-  * Drop Breaks: libgjs0c 
-
- -- Aan Yustian <aftian@localhost>  Tue, 25 Mar 2014 23:51:03 +0000
-
-gobject-introspection (1.39.90-3blankon1) tambora; urgency=low
+gobject-introspection (1.40.0-1blankon1) tambora; urgency=low
 
   * New upstream release
 
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sat, 22 Mar 2014 22:45:06 +0700
+ -- Mahyuddin Ramli <yudi.al@gmail.com>  Fri, 28 Mar 2014 22:35:06 +0700
+
+gobject-introspection (1.40.0-1) experimental; urgency=medium
+
+  * Bump glib build-dep to >= 2.39.0
+    - otherwise gir1.2-glib-2.0 doesn't get g_desktop_app_info_search
+      which is needed by gnome-shell.
+  * debian/copyright: fix syntax errors caught by lintian
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 25 Mar 2014 21:56:59 +0100
 
 gobject-introspection (1.39.90-3) experimental; urgency=medium
 
