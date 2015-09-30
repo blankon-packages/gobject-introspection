@@ -1,0 +1,2 @@
+#needed only until all packages are moved to mutliarch paths
+pre_multiarch_compat
